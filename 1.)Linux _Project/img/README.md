@@ -1,6 +1,7 @@
 ### Linux Project
 ## 1.) Sudo Command 
     Allows you to perform addminstrative and root  permmisons !
+    ![sudo code](<1.)Sudo apt upgrade.png>)
 ## 2.(pwd )
     Prints working directory
 ## 3.) cd
