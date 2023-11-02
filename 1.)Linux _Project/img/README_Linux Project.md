@@ -40,4 +40,6 @@
 # 20. tar command
 # 21 chmod command
     Change files mod bit; In linux each file is associated with 3 user classes: owner, group, member & others. 
-    
+## apt get install
+    Need to have privileage permmison to run command use the command sudo prior to typing the command or change the user type using command "su"
+### Dollar Sign indicates that you are a normal user
