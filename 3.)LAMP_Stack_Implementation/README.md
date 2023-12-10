@@ -33,8 +33,18 @@
 ![Alt text](<img_ref/7.) Installing mySql on the server.png>)
 ![Alt text](<img_ref/8.) mysql_securing password.png>)
 ## 
-5. **Lastly, installing PhP** -> This is where yous script your webapplication...this is essentially how your application goes live for users and they can see the words and formatting down visually. As you can see I created a "tessting.php" text file that had all the imformation about the php I have installed on my default web server. 
-
-**PhP enabaled
+5. **Lastly, installing PhP** -> This is where yous script your webapplication...this is essentially how your application goes live for users and they can see the words and formatting visually. As you can see I created a "testing.php" text file that had all the imformation about my server from the perspective of the php I have installed on my default web server.    
+**Enable PHP on the Website**   
+    To test the PHP script setup, we can set up Apache Virtual host which holds your different websites files and folders. Therefore we can have/hold many website on the same host machine and users of the website will not even notice becasue theu have there own specific site you have provide them access to.  
 ![Alt text](<img_ref/9.) php Version.png>)
 ![g](<img_ref/10.) Working PHP Installation.png>)
+
+**Apache Virtual Host**     
+1. Creating/setting up a domain... in my case it will be called "LampProject" 
+2. Creating a configuration text file for your domain in the "Apache's sites-available" directory. This is important as we are telling Apache to host/serve lampproject using /var/www/lampproject as its web root directory.
+![Alt text](<img_ref/Enabling website on Virtual Host 1.png>)    
+3.Enabling ne virtual host using the 'a2sensite' command. Also had to disable the default landing page that comes with Apache server using the 'a2dissite' command
+4. Created an html text file in the the domain directory: /var/www/lampproject/index.html ... It reads "Hello, Lamp from Hostname". This is now my new domain and its landing page
+![Alt text](<img_ref/Enabling website on Virtual Host 2.png>)
+5. Lastly I created a php text file in my domain but had to remove the index.html file I created above because it would take precedent over an php file
+![Alt text](<img_ref/Enabling website on Virtual Host php script.png>)
