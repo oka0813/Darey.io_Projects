@@ -38,7 +38,7 @@
     To test the PHP script setup, we can set up Apache Virtual host which holds your different websites files and folders. Therefore we can have/hold many website on the same host machine and users of the website will not even notice becasue theu have there own specific site you have provide them access to.  
 ![Alt text](<img_ref/9.) php Version.png>)
 ![g](<img_ref/10.) Working PHP Installation.png>)
-
+##
 **Apache Virtual Host**     
 1. Creating/setting up a domain... in my case it will be called "LampProject" 
 2. Creating a configuration text file for your domain in the "Apache's sites-available" directory. This is important as we are telling Apache to host/serve lampproject using /var/www/lampproject as its web root directory.
