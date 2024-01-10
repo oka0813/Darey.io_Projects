@@ -28,7 +28,7 @@
 ![Alt text](<img_ref/5.) Local host Apache2 HTTP works.png>)
 ![Alt text](<img_ref/6.)Apache2 HTTP works.png>)
 ## 
-4. **Next is to install Mysql** -> This is a database management system. Where I store and manage all my imfomation/data for my web application. Things like user logins and credentials, different tables    
+4. **Next is to install Mysql** -> This is a database management system. Where you store and manage all my imfomation/data for my web application. Things like user logins and credentials, different tables    
 **Installing Mysql**
 ![Alt text](<img_ref/7.) Installing mySql on the server.png>)
 ![Alt text](<img_ref/8.) mysql_securing password.png>)

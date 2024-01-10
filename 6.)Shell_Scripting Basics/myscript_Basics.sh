@@ -25,6 +25,14 @@
 #echo "Hello $NAME, nice to meet you!"
 
 #Simple If Statements
+#if [[ condition ]];
+#then
+#	statement
+#elif [[ condition ]]; then
+#	statement 
+#else
+#	do this by default
+#fi
 
 #if [ "$NAME1" == "Matthew " ]
 #then
