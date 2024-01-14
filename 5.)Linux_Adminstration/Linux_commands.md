@@ -10,7 +10,7 @@ $$ mkdir -p first_folder/sec folder/third_folder/fourth_folder$$
     cp
     mv
     pwd
-    rm
+    rm -rf
     chown :
     chmod :   
     chmod +x : make a file excuteable i.e shell script file (.sh extention)
