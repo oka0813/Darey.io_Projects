@@ -4,7 +4,7 @@ $$ mkdir -p first_folder/sec folder/third_folder/fourth_folder$$
 ##
     Alias - shortcut that references the a linux commands. It replaces the string that invokes a command. 
     Exmaple: alias c='clear'
-
+    rpm -q [check if httpd is installed]
     man
     cat
     cp

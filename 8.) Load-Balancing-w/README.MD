@@ -41,7 +41,7 @@
 
     sudo nano /etc/nginx/conf.d/l   loadbalancer.conf
 
-    using the folling code to acheive the configuration file:
+    using the following code to acheive the configuration file:
             
         upstream backend_servers {
 
@@ -70,3 +70,9 @@
 
 ![Alt text](<Img/nginx -t.png>)
 ![Alt text](Img/nginxloadbalancing.png)
+
+Lastly to test our nginx load balancer, I will copy and paste my virtual instance public IP address in the browser and It will provide me with two different webserver serving me content. 
+![Alt text](Img/ngnixload1.png)
+
+RELOADED THE WEBBROWSER AND YOU SEE THE SAME IP ADDRESS BUT A DIFFERENT CONTENT (thats webserver2)
+![Alt text](Img/ngnixload2.png)
