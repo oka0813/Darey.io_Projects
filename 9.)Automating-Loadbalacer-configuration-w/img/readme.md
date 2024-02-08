@@ -126,6 +126,6 @@
 
 #### 3. Verifying the Setup
 ![Alt text](Verifyingloadbalancer.png)
+![Alt text](<../../8.) Load-Balancing-w/Img/defaultpage1.png>)
 
-
-
+![Alt text](<../../8.) Load-Balancing-w/Img/defaultpage2.png>)
