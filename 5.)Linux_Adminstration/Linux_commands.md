@@ -2,9 +2,12 @@
     1. mkdir -p ( The flag p allows you to make nested folders)  
 $$ mkdir -p first_folder/sec folder/third_folder/fourth_folder$$    
 ##
-    Alias - shortcut that references the a linux commands. It replaces the string that invokes a command. 
+    echo $? - checks to see if a previous   
+            command ran successfully... if it did the result will give you '0'
+    Alias - shortcut that references the a 
+            linux commands. It replaces the string that invokes a command. 
     Exmaple: alias c='clear'
-    rpm -q [check if httpd is installed]
+    rpm -q [check if httpd, apache etc is installed]
     man
     cat
     cp

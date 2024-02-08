@@ -46,7 +46,7 @@
         upstream backend_servers {
 
             # your are to replace the public IP and Port to that of your webservers
-            server 127.0.0.1:8000; # public IP and port for webserser 1
+            server 127.0.0.1:8000; # public IP and port for webserver 1
             server 127.0.0.1:8000; # public IP and port for webserver 2
 
         }
